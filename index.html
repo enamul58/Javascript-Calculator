@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>home</title>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="card mt-5">
+                    <div class="card-body">
+                       <form id="myForm2">
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-3">First Name</label>
+                                <div class="col-sm-9">
+                                    <input  type="text" class="form-control" name="firstName" id="firstName">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-3">Last Name</label>
+                                <div class="col-sm-9">
+                                    <input  type="text" class="form-control" name="lastName" id="lastName">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-3">Full Name</label>
+                                <div class="col-sm-9">
+                                    <input  type="text" class="form-control" name="fullName" id="fullName">
+                                </div>
+                            </div>
+                       </form>
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-3"></label>
+                                <div class="col-sm-9">
+                                    <input  type="submit" class="btn btn-success" name="btn" id="btn" value="submit">
+                                    <input  type="reset" class="btn btn-success" name="btn1" id="btn1" value="C" onclick="myFunction2()" >
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    Calcultor-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="myForm">
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-5">First Number</label>
+                                <div class="col-sm-7">
+                                    <input  type="text" class="form-control" name="firstNumber" id="firstNumber">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-5">Second Number</label>
+                                <div class="col-sm-7">
+                                    <input  type="text" class="form-control" name="secondNumber" id="secondNumber">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-form-label col-sm-5">Result</label>
+                                <div class="col-sm-7">
+                                    <input  type="text" class="form-control" name="result" id="result">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="form-group row">
+                            <label class="col-form-label col-sm-3"></label>
+                            <div class="col-sm-9">
+                                <input  type="submit" class="btn btn-success" name="btn" id="addition" value="+">
+                                <input  type="submit" class="btn btn-success" name="btn" id="subtraction" value="-">
+                                <input  type="submit" class="btn btn-success" name="btn" id="multiplication" value="*">
+                                <input  type="submit" class="btn btn-success" name="btn" id="division" value="/">
+                                <input  type="submit" class="btn btn-success" name="btn" id="remainder" value="%">
+                                <input  type="reset" class="btn btn-success" name="btn" id="reset" value="C" onclick="myFunction()" >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <script src="jquery/jquery.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/my-script.js"></script>
+    </body>
+</html>
